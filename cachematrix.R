@@ -50,13 +50,11 @@ cacheSolve <- function(x, ...) {
 ## [1,]  1.00 -0.25
 ## [2,] -0.25  1.00
 
-## No cache in the first run
 ## > cacheSolve(SqMatrix)
 ##           [,1]      [,2]
 ## [1,] 1.0666667 0.2666667
 ## [2,] 0.2666667 1.0666667
 
-## Retrieving from the cache in the second run
 ## > cacheSolve(SqMatrix)
 ## getting cached data.
 ##           [,1]      [,2]
